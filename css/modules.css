@@ -1,0 +1,23 @@
+.animal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.animal * {
+    margin: 5% auto;
+}
+
+.animal-name {
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.animal-description {
+    font-size: 150%;
+}
+
+.animal-image {
+    width: 70%;
+    border-radius: 30px;
+}
