@@ -1,0 +1,77 @@
+.animal {
+    margin: 10px;
+    padding: 30px;
+    align-content: center;
+    width: 300px;
+    max-width: 400px;
+}
+
+#animal-wrap {
+    padding: 0 6%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#buttons {
+    width: 30%;
+    display: inline-flex;
+    font-family: 'Shadows Into Light Two', cursive;
+    justify-content: center;
+    flex-direction: column
+}
+
+#sort {
+    margin: 3%;
+}
+
+.navButtons {
+    margin: 3%;
+    width: 20%;
+    max-width: 100px;
+    height: 50px;
+    font-size: 12pt;
+    border-radius: 10%;
+    background-color: azure;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.sortBtns {
+    width: 3%;
+    margin: 3%;
+    margin-top: 5%;
+}
+
+@media (min-width:768px) {
+    #animal-wrap {
+        max-width: 1000px;
+        justify-content: space-evenly;
+    }
+}
+
+div {
+    width: 300px;
+    height: 320px;
+    float: left;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+img {
+    width: 190px;
+    height: 170px;
+    margin: auto;
+    padding: 7px;
+}
+
+h1 {
+    font-size: 6em;
+    margin-top: -20px;
+    color: whitesmoke;
+}
+
+main {
+    overflow: hidden;
+    font-family: 'Pacifico', cursive;
+    padding: 30px;
+}
